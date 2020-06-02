@@ -1,0 +1,72 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+
+<body>
+    <div class="main_div">
+
+
+        <div class="info_div">
+            <div><img src="resources/logo.png" alt=""></div>
+            <div>
+                <h4 id="display_name"></h4>
+            </div>
+            <div>
+                <div id="log_out"><a href="login.html">Log Out</a></div>
+            </div>
+        </div>
+
+
+        <div class="nav_div">
+
+            <div id="home"><a href="index.html"><img src="resources/noun_Home_2455891.png" alt="Home">
+                    <h3>Home</h3>
+                </a>
+            </div>
+
+            <div><a href="stock_main.html"><img src="resources/noun_Stock_214763.png" alt="Stock Maintain">
+                    <h3>Stock Maintain</h3>
+                </a>
+            </div>
+
+            <div><a href="sales.html"><img src="resources/noun_sales_2277488.png" alt="Sales">
+                    <h3>Sales</h3>
+                </a>
+            </div>
+
+            <div><a href="about.html"><img src="resources/noun_contact_1995626.png" alt="About Us">
+                    <h3>About Us</h3>
+                </a>
+            </div>
+        </div>
+
+
+
+        <div class="sales_div">
+            <div class="id_search_div">
+                <h3>Search Product Id</h3>
+                <form id="id_search_form">
+                    <input id="product_Name" type="text" placeholder="Product Name">
+                    <input id="product_type" type="text" placeholder="Product Type">
+                    <input id="get_product_id" type="submit" value="Search">
+                </form>
+            </div>
+            <div>
+                <h3>Update Sales</h3>
+                <form id="sales_form">
+                    <input id="product_id" type="number" placeholder="Product Id">
+                    <input id="quantity" type="number" placeholder="Quantity Of Item">
+                    <input id="Update_sales" type="submit" value="Update Sales">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="sales.js"></script>
+</body>
+
+</html>

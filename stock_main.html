@@ -1,0 +1,75 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+
+<body>
+
+    <div class="main">
+
+
+        <div class="info_div">
+            <div><img src="resources/logo.png" alt=""></div>
+            <div>
+                <h4 id="display_name"></h4>
+            </div>
+            <div>
+                <div id="log_out"><a href="login.html">Log Out</a></div>
+            </div>
+        </div>
+
+
+        <div class="nav_div">
+
+            <div id="home"><a href="index.html"><img src="resources/noun_Home_2455891.png" alt="Home">
+                    <h3>Home</h3>
+                </a>
+            </div>
+
+            <div><a href="stock_main.html"><img src="resources/noun_Stock_214763.png" alt="Stock Maintain">
+                    <h3>Stock Maintain</h3>
+                </a>
+            </div>
+
+            <div><a href="sales.html"><img src="resources/noun_sales_2277488.png" alt="Sales">
+                    <h3>Sales</h3>
+                </a>
+            </div>
+
+            <div><a href="about.html"><img src="resources/noun_contact_1995626.png" alt="About Us">
+                    <h3>About Us</h3>
+                </a>
+            </div>
+        </div>
+
+        <div class="maintain_div">
+
+            <div id="manipulation_div">
+                <h3 style="margin-top: 0px;">Add or Update Items</h3>
+                <button id="add_new_item">Add New Item</button>
+                <button id="update_existing_item">Update Existing Item</button>
+            </div>
+
+            <div class="search_div">
+                <h3 style="text-align: center; margin-top: 0px;">Check product status</h3>
+                <form id="search">
+                    <select id="search_type">
+                        <option value="--">--</option>
+                        <option value="by_id">Search by Product Id</option>
+                        <option value="by_name">Search by Product Name</option>
+                    </select>
+                    <input type="submit" id="search_submit" value="Display Status">
+                    <div id="cont"></div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="stock_main.js"></script>
+</body>
+
+</html>
